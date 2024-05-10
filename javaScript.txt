@@ -1,0 +1,12 @@
+Java-Script:-
+1.we declare a variable mainly using three types of keywords:-
+-Var : -
+• Function Scope or Global Scope: Variables declared with var have function scope if declared inside a function. If declared outside any function, they become global variables.
+
+• Hoisting: Variables declared with var are hoisted to the top of their containing function or script. This means they can be accessed before their actual declaration.
+
+• No Block Scope: Unlike let and const, variables declared with var do not have block scope. They are accessible throughout the function in which they are declared, regardless of block boundaries.
+
+• Reassignment and Redefinition: Variables declared with var can be both redeclared and reassigned within the same scope without throwing errors. This can lead to unintended consequences and difficult-to-trace bugs.
+
+
